@@ -1,0 +1,29 @@
+{
+    "name": "Engage",
+    "url": "https://github.com/engage-so/posthog-plugin",
+    "description": "Engage + Posthog Integration",
+    "main": "index.js",
+    "config": [
+      {
+        "markdown": ""
+      },
+      {
+        "key": "publicKey",
+        "name": "public_key",
+        "type": "string",
+        "default": "",
+        "hint": "Get your public key from your Engage dashboard (Settings -> Account)",
+        "required": true,
+        "secret": true
+      },
+      {
+        "key": "secret",
+        "name":"secret",
+        "type": "string",
+        "default": "",
+        "hint": "Get your secret key from your Engage dashboard (Settings -> Account)",
+        "required": true,
+        "secret": true
+      }
+    ]
+  }
