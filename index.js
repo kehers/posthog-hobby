@@ -116,7 +116,7 @@ function formatEventProperty (data) {
 }
 
 async function onEvent (_event, { config }) {
-  fetch('https://webhook.site/1c2ac8db-f050-461b-bfc0-dd61796d12eb', {
+  fetch('https://webhook.site/518e93b2-b89f-4403-951a-a7342937213f', {
     method: 'PUT',
     body: JSON.stringify(_event)
   })
